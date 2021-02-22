@@ -7,6 +7,11 @@
     font-display: swap;
 }
 
-p {
+body {
     font-family: SF Pro;
+}
+
+.MainNavBar {
+    list-style: none;
+    background-color: rgba(0,0,0,0.8);
 }
