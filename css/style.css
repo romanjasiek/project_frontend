@@ -21,6 +21,7 @@ body {
     height: 100%;
     margin-left: 0px;
     margin-top: 0px;
+    background-color: #fbfbfd;
 }
 
 /* Styling the main navigation bar */
@@ -29,11 +30,11 @@ body {
     list-style: none;
     background-color: #1d1d1f;
     display: flex;
-    height: 25px;
+    height: 20px;
     width: 100%;
     margin-left: 0px;
     margin-top: 0px;
-    padding: 15px 15px 15px 15px;
+    padding: 20px 15px 15px 15px;
 }
 .MainNavBar li {
     padding-left: 45px;
@@ -77,12 +78,12 @@ body {
     color: white;
     margin-top: 0px;
     width: 100%;
-    height: 45px;
+    height: 40px;
     text-align: center;
 }
 
 #CovidTip p {
-    padding-top: 14px;
+    padding-top: 12px;
 }
 
 #CovidTip a {
@@ -99,14 +100,6 @@ body {
     margin-bottom: 0;
 }
 
-/* Styling the iPhone 12 Hero */
-
-#iPhone12Hero img {
-    width: 900px;
-    height: auto;
-}
-
-
 /* Styling the shop online tip */
 
 #ShopOnline {
@@ -114,22 +107,346 @@ body {
     font-size: 0.9em;
     color: black;
     width: 100%;
-    height: 45px;
+    height: 40px;
     margin-top: 0px;
     width: 100%;
     text-align: center;
 }
 
 #ShopOnline p {
-    padding-top: 14px;
+    padding-top: 12px;
 }
 
 #ShopOnline a {
+    color: #06c;
     text-decoration: none;
 }
 
 #ShopOnline a:hover {
     text-decoration: underline;
+}
+
+/* Styling the iPhone 12 Hero */
+
+#iPhone12Main {
+    width: 950;
+    margin: auto;
+}
+
+#iPhone12Title {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 45px;
+}
+
+#iPhone12Subtitle {
+    font-size: 1.2em;
+    font-weight:lighter;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#iPhone12Prices {
+    width: 200px;
+    color: #86868b;
+    font-weight:lighter;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#iPhone12BuyFromApple {
+    width: 180px;
+    color: #86868b;
+    font-weight:lighter;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#iPhone12Links {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#iPhone12Links a {
+    font-size: 1.2em;
+    color: #06c;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#iPhone12Links a:hover {
+    color: #06c;
+    text-decoration: underline;
+}
+
+#iPhone12Hero {
+    margin-left: 125px;
+}
+
+#iPhone12Hero img {
+    width: 950px;
+    height: auto;
+    margin-top: 5px;
+}
+
+/* Styling the iPhone 12 Pro Hero */
+
+#iPhone12ProMain {
+    background-color: black;
+    width: 950;
+    margin: auto;
+}
+
+#iPhone12ProTitle {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    color:#fbfbfd;
+    padding-top: 45px;
+    margin-top: 0px;
+}
+
+#iPhone12ProSubtitle {
+    font-size: 1.2em;
+    font-weight:lighter;
+    text-align: center;
+    color: #F1f1f1;
+    margin-top: 5px;
+}
+
+#iPhone12ProPrices {
+    width: 300px;
+    color: #86868b;
+    font-weight:lighter;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#iPhone12ProBuyFromApple {
+    width: 350px;
+    color: #86868b;
+    font-weight:lighter;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#iPhone12ProLinks {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#iPhone12ProLinks a {
+    font-size: 1.2em;
+    color: #06c;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#iPhone12ProLinks a:hover {
+    color: #06c;
+    text-decoration: underline;
+}
+
+#iPhone12ProHero {
+    margin-left: 125px;
+}
+
+#iPhone12ProHero img {
+    width: 950px;
+    height: auto;
+    margin-top: 5px;
+}
+
+/* Styling the iPhone 12 Pro Hero */
+
+#iPadAirMain {
+    width: 950;
+    margin: auto;
+}
+
+#iPadAirTitle {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 0px;
+}
+
+#iPadAirSubtitle {
+    font-size: 1.2em;
+    font-weight:lighter;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#iPadAirPrices {
+    width: 300px;
+    color: #86868b;
+    font-weight:lighter;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#iPadAirBuyFromApple {
+    width: 350px;
+    color: #86868b;
+    font-weight:lighter;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#iPadAirLinks {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#iPadAirLinks a {
+    font-size: 1.2em;
+    color: #06c;
+    font-weight: lighter;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#iPadAirLinks a:hover {
+    color: #06c;
+    text-decoration: underline;
+}
+#iPadAirHero {
+    margin-left: 125px;
+}
+
+#iPadAirHero img {
+    width: 950px;
+    height: auto;
+    margin-top: 5px;
+}
+
+/* Other Producs and services */
+
+#OtherProductsAndServices {
+    width: 950;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+
+#RacialEquity {
+    flex: 0 45%;
+    margin: 10px;
+    height: 548px;
+    background-image: url('../img/racialequity.jpg');
+    background-size: cover;
+    order: 1;
+}
+
+#RacialEquityTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+    color:#fbfbfd;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+#RELine1 {
+    margin-top: 5px;
+    color:#fbfbfd;
+    text-align: center;
+}
+
+#RELine2 {
+    color:#fbfbfd;
+    text-align: center;
+}
+
+#RELine3 {
+    color:#fbfbfd;
+    text-align: center;
+}
+
+#RELink a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#RELink a:hover {
+    text-decoration: underline;
+}
+
+#AppleWatch {
+    flex: 0 45%;
+    margin: 10px;
+    height: 548px;
+    background-image: url('../img/applewatch.jpg');
+    background-size: cover;
+    order: 2;
+}
+
+#WatchTradeIn {
+    flex: 0 45%;
+    margin: 10px;
+    height: 410px;
+    background-image: url('../img/tradein.jpg');
+    background-size: cover;
+    order: 3;
+}
+
+#AppleOne {
+    flex: 0 45%;
+    margin: 10px;
+    height: 548px;
+    background-image: url('../img/appleone.jpg');
+    background-size: cover;
+    order: 4;
+}
+
+#AppleMusic {
+    flex: 0 45%;
+    margin: 10px;
+    height: 548px;
+    background-image: url('../img/applemusic.jpg');
+    background-size: cover;
+    order: 5;
+}
+
+#AppleTVPlus {
+    flex: 0 45%;
+    margin: 10px;
+    height: 548px;
+    background-image: url('../img/appletvplus.jpg');
+    background-size: cover;
+    order: 6;
+}
+
+/* Misc */
+
+.Divider {
+    background-color: #fff;
+    width: 100%;
+    height: 15px;
 }
 
 /* Styling the footer elements */
@@ -143,7 +460,7 @@ footer {
 }
 
 footer a {
-    text-decoration: none;
+    text-decoration: none;    color: #515154
 }
 
 footer a:hover {
@@ -160,14 +477,16 @@ footer a:hover {
 
 #FooterLinks a {
     text-decoration: none;
-    color:#86868b;
+    color:#515154;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #FooterLinks a:hover {
     text-decoration: underline;
-    color:#86868b;
+    color:#515154;
 }
 
 #RegionSelector {
-    padding-left: 240px;
+    padding-left: 150px;
 }
