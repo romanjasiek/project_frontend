@@ -371,17 +371,20 @@ body {
 }
 
 #RELine1 {
+    font-size: 1.2em;
     margin-top: 5px;
     color:#fbfbfd;
     text-align: center;
 }
 
 #RELine2 {
+    font-size: 1.2em;
     color:#fbfbfd;
     text-align: center;
 }
 
 #RELine3 {
+    font-size: 1.2em;
     color:#fbfbfd;
     text-align: center;
 }
@@ -390,6 +393,7 @@ body {
     color: #06c;
     text-decoration: none;
     font-size: 1.2em;
+    margin-left: 40%;
 }
 
 #RELink a:hover {
@@ -405,6 +409,41 @@ body {
     order: 2;
 }
 
+#AppleWatchTitle {
+    color:#F1f1f1;
+    font-weight: bold;
+    font-size: 2em;
+    text-align:center;
+    margin-top: 45px;
+}
+
+#AppleWatchSeries {
+    margin-top: 0px;
+    color: darkred;
+    font-size: smaller;
+    font-weight: bold;
+    text-align:center;
+}
+
+#AppleWatchSubtitle {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color:#fbfbfd;
+    text-align: center;
+}
+
+#AppleWatchLinks a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 25%;
+}
+
+#AppleWatchLinks a:hover {
+    color: #06c;
+    text-decoration: underline;
+}
+
 #WatchTradeIn {
     flex: 0 45%;
     margin: 10px;
@@ -412,6 +451,54 @@ body {
     background-image: url('../img/tradein.jpg');
     background-size: cover;
     order: 3;
+}
+
+#TradeInAboveTitle {
+    font-size: 0.6em;
+    margin-top: 15px;
+    color: darkred;
+    text-align: center;
+}
+
+#TradeInTitle {
+    color:#000;
+    font-weight: bold;
+    font-size: 2em;
+    text-align:center;
+    margin-top: 0px;
+}
+
+#TradeInText1 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #000;
+    text-align: center;
+}
+
+#TradeInText2 {
+    font-size: 1.2em;
+    margin-top: 0x;
+    color: #000;
+    text-align: center;
+}
+
+#TradeInText3 {
+    font-size: 1.2em;
+    margin-top: 0px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#TradeInLink a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 45%;
+}
+
+#TradeInLink a:hover {
+    text-decoration: underline;
 }
 
 #AppleOne {
@@ -423,6 +510,44 @@ body {
     order: 4;
 }
 
+#AppleOneTitle {
+    color:#F1f1f1;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+    font-size: 2em;
+    text-align:center;
+    margin-top: 45px;
+}
+
+#AppleOneText {
+    font-size: 1.2em;
+    text-shadow: 1px 1px #fff;
+    margin-top: 15px;
+    color: #000;
+    text-align: center;
+}
+
+#AppleOneText2 {
+    font-size: 1.2em;
+    text-shadow: 1px 1px #fff;
+    margin-top: 15px;
+    color:#000;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#AppleOneLinks a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 25%;
+}
+
+#AppleOneLinks a:hover {
+    text-decoration: underline;
+}
+
 #AppleMusic {
     flex: 0 45%;
     margin: 10px;
@@ -432,6 +557,41 @@ body {
     order: 5;
 }
 
+#AppleMusicTitle {
+    color: gold;
+    font-weight: bold;
+    font-size: 2em;
+    text-align:center;
+    margin-top: 45px;
+}
+
+#AppleMusicSubtitle {
+    font-size: 1.8em;
+    margin-top: 15px;
+    color:gold;
+    text-align: center;
+}
+
+#AppleMusicText {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color:gold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#AppleMusicLink a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 40%;
+}
+
+#AppleMusicLink a:hover {
+    text-decoration: underline;
+}
+
 #AppleTVPlus {
     flex: 0 45%;
     margin: 10px;
@@ -439,6 +599,25 @@ body {
     background-image: url('../img/appletvplus.jpg');
     background-size: cover;
     order: 6;
+}
+
+#AppleTVPlusTitle {
+    color: #F1f1f1;
+    font-weight: bold;
+    font-size: 2em;
+    text-align:center;
+    margin-top: 45px;
+}
+
+#AppleTVPlusLink a {
+    color: #F1f1f1;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 30%;
+}
+
+#AppleTVPlusLink a:hover {
+    text-decoration: underline;
 }
 
 /* Misc */
