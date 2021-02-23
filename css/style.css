@@ -630,6 +630,253 @@ body {
 
 /* Styling the footer elements */
 
+#FooterNotes {
+    width: 950px;
+    margin:auto;
+}
+
+#Footnote1 {
+    font-size: small;
+    color: #86868b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#Footnote2 {
+    font-size: small;
+    color: #86868b;
+    margin-bottom: 15px;
+}
+
+#Footnote3 {
+    font-size: small;
+    color: #86868b;
+    margin-bottom: 15px;
+}
+
+#Footnote4 {
+    font-size: small;
+    color: #86868b;
+    margin-bottom: 15px;
+}
+
+#Footnote5 {
+    font-size: small;
+    color: #86868b;
+    margin-bottom: 15px;
+}
+
+#Footnote6 {
+    font-size: small;
+    color: #86868b;
+    margin-bottom: 45px;
+}
+
+#FooterMenu {
+    display: flex;
+    align-content: space-between;
+    width:950px;
+    margin: auto;
+}
+
+#ShopandLearnUL li {
+    list-style:none;
+}
+
+#ShopandLearnUL strong {
+    font-size:smaller;
+}
+
+#ShopandLearnUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#ShopandLearnUL a:hover {
+    text-decoration: underline;
+}
+
+#ServicesUL {
+    margin-left: 50px;
+}
+
+#ServicesUL li {
+    list-style: none;
+}
+
+#ServicesUL strong {
+    font-size:smaller;
+}
+
+#ServicesUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#ServicesUL a:hover {
+    text-decoration: underline;
+}
+
+#Account {
+    margin-top: 15px;
+}
+
+#AppleStoreUL {
+    margin-left: 50px;
+}
+
+#AppleStoreUL li {
+    list-style: none;
+}
+
+#AppleStoreUL strong {
+    font-size:smaller;
+}
+
+#AppleStoreUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#AppleStoreUL a:hover {
+    text-decoration: underline;
+}
+
+#ForBusinessUL {
+    margin-left: 50px;
+}
+
+#ForBusinessUL li {
+    list-style: none;
+}
+
+#ForBusinessUL strong {
+    font-size:smaller;
+}
+
+#ForBusinessUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#ForBusinessUL a:hover {
+    text-decoration: underline;
+}
+
+#ForEducationUL {
+    margin-top: 15px;
+}
+
+#ForEducationUL li {
+    list-style: none;
+}
+
+#ForEducationUL strong {
+    font-size:smaller;
+}
+
+#ForEducationUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#ForEducationUL a:hover {
+    text-decoration: underline;
+}
+
+#ForHealthcare {
+    margin-top: 15px;
+}
+
+#ForHealthcare li {
+    list-style: none;
+}
+
+#ForHealthcare strong {
+    font-size:smaller;
+}
+
+#ForHealthcare a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#ForHealthcare a:hover {
+    text-decoration: underline;
+}
+
+#ForGovernment {
+    margin-top: 15px;
+}
+
+#ForGovernment li {
+    list-style: none;
+}
+
+#ForGovernment strong {
+    font-size:smaller;
+}
+
+#ForGovernment a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#ForGovernment a:hover {
+    text-decoration: underline;
+}
+
+#AppleValuesUL {
+    margin-left: 50px;
+}
+
+#AppleValuesUL li {
+    list-style: none;
+}
+
+#AppleValuesUL strong {
+    font-size:smaller;
+}
+
+#AppleValuesUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#AppleValuesUL a:hover {
+    text-decoration: underline;
+}
+
+#AboutAppleUL {
+    margin-top: 15px;
+}
+
+#AboutAppleUL li {
+    list-style: none;
+}
+
+#AboutAppleUL strong {
+    font-size:smaller;
+}
+
+#AboutAppleUL a {
+    text-decoration: none;
+    font-size:smaller;
+    color: #515154;
+}
+
+#AboutAppleUL a:hover {
+    text-decoration: underline;
+}
+
 footer {
     color: #86868b;
     font-size:smaller;
